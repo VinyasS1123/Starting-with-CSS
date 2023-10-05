@@ -1,0 +1,40 @@
+/* Define a Custom Color Palette */
+:root{
+    --primary-color:#3498db;
+    --secondary-color:#e74c3c;
+    --background-color:#f2f2f2;
+}
+
+.form-container{
+    width: 100%;         
+    background-color: var(--background-color);
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+.name,.email,.age,.gender{
+    margin: 10px;
+    color: var(--primary-color);
+}
+
+.gender{
+    margin-left: -82px;
+}
+
+#submit{
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: var(--secondary-color);
+}
+
+input[type="text"],input[type="number"],input[type="email"]{
+    border-color: var(--secondary-color);
+}
+#gender{
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+}
+
+
+

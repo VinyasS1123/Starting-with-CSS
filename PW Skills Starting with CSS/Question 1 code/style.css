@@ -1,0 +1,9 @@
+h1{
+    background-color: black;
+    color: aliceblue;
+}
+p{
+    color: rgb(231, 10, 47);
+}
+
+/* This is another way of adding CSS to the web page,This is done creating a separate css file and adding all the styles to the page. */
